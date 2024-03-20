@@ -1085,14 +1085,14 @@ section,
   color: rgba(var(--default-color-rgb), 0.6);
 }
 
-/* Services Section - Home Page
+/* events Section - Home Page
 ------------------------------*/
-.services .service-item {
+.events .service-item {
   position: relative;
   padding-top: 40px;
 }
 
-.services .service-item:before {
+.events .service-item:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1102,7 +1102,7 @@ section,
   background: rgba(var(--default-color-rgb), 0.1);
 }
 
-.services .service-item::after {
+.events .service-item::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1113,7 +1113,7 @@ section,
   border-right: 5px solid var(--background-color);
 }
 
-.services .service-item .icon {
+.events .service-item .icon {
   width: 48px;
   height: 48px;
   position: relative;
@@ -1121,7 +1121,7 @@ section,
   line-height: 0;
 }
 
-.services .service-item .icon i {
+.events .service-item .icon i {
   color: rgba(var(--default-color-rgb), 0.7);
   font-size: 56px;
   transition: ease-in-out 0.3s;
@@ -1129,7 +1129,7 @@ section,
   position: relative;
 }
 
-.services .service-item .icon:before {
+.events .service-item .icon:before {
   position: absolute;
   content: "";
   height: 30px;
@@ -1142,21 +1142,21 @@ section,
   transition: 0.3s;
 }
 
-.services .service-item .title {
+.events .service-item .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .service-item .title a {
+.events .service-item .title a {
   color: var(--heading-color);
 }
 
-.services .service-item .title a:hover {
+.events .service-item .title a:hover {
   color: var(--accent-color);
 }
 
-.services .service-item .description {
+.events .service-item .description {
   line-height: 24px;
   font-size: 14px;
 }
@@ -2214,9 +2214,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Details Page
+# events Details Page
 --------------------------------------------------------------*/
-/* Service-details Section - Services Details Page
+/* Service-details Section - events Details Page
 ------------------------------*/
 .service-details .service-box {
   padding: 20px;
@@ -2235,7 +2235,7 @@ section,
   margin-bottom: 15px;
 }
 
-.service-details .services-list a {
+.service-details .events-list a {
   color: rgba(var(--default-color-rgb), 0.8);
   background-color: rgba(var(--default-color-rgb), 0.04);
   display: flex;
@@ -2245,26 +2245,26 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a:first-child {
+.service-details .events-list a:first-child {
   margin-top: 0;
 }
 
-.service-details .services-list a i {
+.service-details .events-list a i {
   font-size: 16px;
   margin-right: 8px;
   color: var(--accent-color);
 }
 
-.service-details .services-list a.active {
+.service-details .events-list a.active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
 
-.service-details .services-list a.active i {
+.service-details .events-list a.active i {
   color: var(--contrast-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .events-list a:hover {
   background-color: rgba(var(--accent-color-rgb), 0.05);
   color: var(--accent-color);
 }
@@ -2313,7 +2313,7 @@ section,
   color: var(--contrast-color);
 }
 
-.service-details .services-img {
+.service-details .events-img {
   margin-bottom: 20px;
 }
 
