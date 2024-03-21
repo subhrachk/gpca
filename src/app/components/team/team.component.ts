@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './team.component.html',
   styleUrl: './team.component.css'
 })
+
 export class TeamComponent {
 
 }
+
